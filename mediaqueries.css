@@ -1,0 +1,180 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 80vh;
+    margin-bottom: 3rem;
+  }
+
+  .aboutContainers {
+    flex-wrap: wrap;
+  }
+
+  #about {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktopNav {
+    display: none;
+  }
+
+  #hamburgerNav {
+    display: flex;
+  }
+
+  #experience,
+  .experienceDetailsContainer {
+    margin-top: 2rem;
+  }
+
+  #profile,
+  .sectionContainer {
+    display: block;
+    height: 80vh;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  section,
+  .sectionContainer {
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section {
+    margin: 0 5%;
+  }
+
+  .sectionContainer {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sectionPicContainer {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 2rem;
+  }
+
+  .aboutContainers {
+    margin-top: 0;
+  }
+
+  .projectSection {
+    padding-top: 4vh;
+    height: 180vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .projectContainers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #contact,
+  footer {
+    height: 40vh;
+  }
+
+  #contact,
+  footer {
+    height: 40vh;
+    margin-top: 2rem;
+  }
+
+  .aboutContainers,
+  .contactInfoUpperContainer,
+  .btnContainer {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projectContainers {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .icon {
+    height: 1.5rem;
+    padding-left: 5px;
+  }
+
+  #contact {
+    margin-top: 2rem;
+  }
+
+  #contact,
+  footer {
+    height: 40vh;
+  }
+
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+
+  article {
+    font-size: 1rem;
+  }
+
+  footer,
+  nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  .aboutContainers,
+  .contactInfoUpperContainer,
+  .btnContainer {
+    flex-wrap: wrap;
+  }
+
+  .contactInfoCnatainer,
+  .contactInfoCnatainer p,
+  .navLinks li a {
+    font-size: 1rem;
+  }
+
+  .experienceSubtitle {
+    font-size: 1.25rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .sectionPicContainer {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+
+  .sectionTextP2 {
+    font-size: 1.25rem;
+  }
+
+  title {
+    font-size: 2rem;
+  }
+
+  .textContainer {
+    text-align: justify;
+  }
+
+  footer {
+    margin-top: 2rem;
+  }
+}

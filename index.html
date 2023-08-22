@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+</head>
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="mediaqueries.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+
+<body>
+    <nav id="desktopNav">
+        <div class="logo">Saleem Talha</div>
+        <div>
+            <ul class="navLinks">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburgerNav">
+        <div class="logo">Saleem Talha</div>
+        <div class="hamburgerMenu">
+            <div class="hamburgerIcon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menuLinks">
+                <li>
+                    <a href="#about" onclick="toggleMenu()">About</a>
+                </li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="sectionPicContainer">
+            <img src="./assets/profile-pic.jpeg" alt="Saleem Talha Profile Pic" class="pfp" />
+        </div>
+        <div class="sectionText">
+            <p class="sectionTextP1">Hello I'm</p>
+            <h1 class="title">Saleem Talha</h1>
+            <p class="sectionTextP2">Software Eveloper & Grapgic Designer</p>
+            <div class="btnContainer">
+                <button class="btn btnColor2" onclick="window.open('./assets/CV.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btnColor1" onclick="location.href='./#contact'">
+                    Contact Me
+                </button>
+            </div>
+            <div class="allSocialContainer">
+                <div id="socialsContainer">
+                    <img src="./assets/linkedin.png" alt="LinkedIn Profile" class="specialIcon"
+                        onclick="location.href='https://www.linkedin.com/in/saleem-talha-47b004281/'" />
+                </div>
+                <div id="socialsContainer">
+                    <img src="./assets/github.png" alt="GitHub Profile" class="specialIcon"
+                        onclick="location.href='https://github.com/Saleem-Talha'" />
+                </div>
+                <div id="socialsContainer">
+                    <img src="./assets/instagram.png" alt="instagram Profile" class="specialIcon"
+                        onclick="location.href='https://www.instagram.com/______talha_/'" />
+                </div>
+                <div id="socialsContainer">
+                    <img src="./assets/whatsapp.png" alt="WhatsApp Profile" class="specialIcon"
+                        onclick="location.href='https://wa.link/hcf169'" />
+                </div>
+                <div id="socialsContainer">
+                    <img src="./assets/gmail.png" alt="Gmail Profile" class="specialIcon"
+                        onclick="location.href='https://mail.google.com/mail/u/0/#inbox?compose=jrjtWvNPVPNzHgRxHDBRNjZBXtZgBmpDqGpzmCknqzhVHXPsNzNVDFQBNptRmmCVfVFSxlrV'" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="sectionTextP1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="sectionContainer">
+            <div class="sectionPicContainer">
+                <img src="./assets/me.jpeg" alt="Profile Pic" class="aboutPic" />
+            </div>
+            <div class="aboutDetailsContainer">
+                <div class="aboutContainers">
+                    <div class="detailsContainer">
+                        <img src="./assets/experience.png" alt="Experience Icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>2+ years <br />Software Developer & Graphic Designer</p>
+                    </div>
+                    <div class="detailsContainer">
+                        <img src="./assets/education.png" alt="Education Icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>BSCS<br />Air University Islamabad</p>
+                    </div>
+                </div>
+                <div class="textContainer">
+                    I am Saleem Talha, a 20-year-old student currently pursuing my BSCS
+                    degree at Air University, Islamabad. My passion for technology has
+                    led me to explore various facets of development and design, and I
+                    have honed my skills in Web Development, App Development, and
+                    Graphic Design.
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+
+
+
+    <section id="experience">
+        <p class="sectionTextP1">Explore My</p>
+        <h1 class="title">Experience</h1>
+
+        <div class="experienceDetailsContainer">
+            <div class="aboutContainers">
+                <div class="detailsContainer">
+                    <h2 class="experienceSubtitle">Frontend Development</h2>
+                    <div class="articleContainer">
+                        <article class="articleVal">
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>HTML CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article class="articleVal">
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>Flutter</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article class="articleVal">
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>React JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article class="articleVal">
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article class="articleVal">
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>Framer</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article class="articleVal">
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="detailsContainer">
+                    <h2 class="experienceSubtitle">Backend Development</h2>
+                    <div class="articleContainer">
+                        <article class="articleVal">
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>C/C++</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article class="articleVal">
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article class="articleVal">
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>Dart</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article class="articleVal">
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>MS SQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article class="articleVal">
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article class="articleVal">
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon" />
+                            <div>
+                                <h3>Firebase</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+
+    <section id="projects">
+        <p class="sectionTextP1">
+            Browse My Recent
+        </p>
+        <h1 class="title">Projects</h1>
+        <div class="experienceDetailsContainer">
+            <div class="projectContainers">
+                <div class="detailsContainer colorContainer">
+                    <div class="articleContainer">
+                        <img src="./assets/harmonichub.jpeg" alt="Project 1" class="projectImg">
+                    </div>
+                    <h2 class="experienceSubtitle projectTitle">
+                        Harmonic Hub
+                    </h2>
+                    <p>A Music Player App</p>
+                    <p class="subtitle2">Made in Flutter</p>
+                    <div class="btnContainer">
+                        <button class="btn btnColor2 projectBtn"
+                            onclick="location.href='https://github.com/Saleem-Talha/Harmoni-Hub'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="detailsContainer colorContainer">
+                    <div class="articleContainer">
+                        <img src="./assets/dishdash.jpeg" alt="Project 2" class="projectImg">
+
+                    </div>
+                    <h2 class="experienceSubtitle projectTitle">
+                        Dish Dash
+                    </h2>
+                    <p>A Food Delivery App Design</p>
+                    <p class="subtitle2">Made in Figma</p>
+                    <div class="btnContainer">
+                        <button class="btn btnColor2 projectBtn"
+                            onclick="location.href='https://github.com/Saleem-Talha/Dish-Dash'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="detailsContainer colorContainer">
+                    <div class="articleContainer">
+                        <img src="./assets/ai.jpeg" alt="Project 3" class="projectImg">
+
+                    </div>
+                    <h2 class="experienceSubtitle projectTitle">
+                        AI Voice Assistant
+                    </h2>
+                    <p>Harmonic Hub Radio</p>
+                    <p class="subtitle2">Made in Flutter</p>
+                    <div class="btnContainer">
+                        <button class="btn btnColor2 projectBtn"
+                            onclick="location.href='https://github.com/Saleem-Talha/AI-Voice-Assistant-Radio'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="experienceDetailsContainer">
+            <div class="projectContainers">
+                <div class="detailsContainer colorContainer">
+                    <div class="articleContainer">
+                        <img src="./assets/snake.jpeg" alt="Project 1" class="projectImg">
+
+                    </div>
+                    <h2 class="experienceSubtitle projectTitle">
+                        Snake Game
+                    </h2>
+                    <p>Multiplayer & Mutiple Levels</p>
+                    <p class="subtitle2">Made in C++</p>
+                    <div class="btnContainer">
+                        <button class="btn btnColor2 projectBtn"
+                            onclick="location.href='https://github.com/Saleem-Talha/Snake-Game'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="detailsContainer colorContainer">
+                    <div class="articleContainer">
+                        <img src="./assets/calculator.jpeg" alt="Project 2" class="projectImg">
+
+                    </div>
+                    <h2 class="experienceSubtitle projectTitle">
+                        Calculator App
+                    </h2>
+                    <p>Light & Dark Mode</p>
+                    <p class="subtitle2">Made in Flutter</p>
+                    <div class="btnContainer">
+                        <button class="btn btnColor2 projectBtn"
+                            onclick="location.href='https://github.com/Saleem-Talha/Calculator-App'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="detailsContainer colorContainer">
+                    <div class="articleContainer">
+                        <img src="./assets/youtube.jpeg" alt="Project 3" class="projectImg">
+
+                    </div>
+                    <h2 class="experienceSubtitle projectTitle">
+                        Youtube Clone
+                    </h2>
+                    <p>Landing Page</p>
+                    <p class="subtitle2">Made in HTML CSS</p>
+                    <div class="btnContainer">
+                        <button class="btn btnColor2 projectBtn"
+                            onclick="location.href='https://github.com/Saleem-Talha/Youtube-Landing-Page-Clone'">
+                            Github
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="sectionTextP1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contactInfoUpperContainer">
+            <div class="contactInfoCnatainer">
+                <img src="./assets/gmail.png" alt="Email" class="icon  contactInfo"
+                    onclick="location.href='https://mail.google.com/mail/u/0/#inbox?compose=jrjtWvNPVPNzHgRxHDBRNjZBXtZgBmpDqGpzmCknqzhVHXPsNzNVDFQBNptRmmCVfVFSxlrV'">
+                <p><a
+                        onclick="location.href='https://mail.google.com/mail/u/0/#inbox?compose=jrjtWvNPVPNzHgRxHDBRNjZBXtZgBmpDqGpzmCknqzhVHXPsNzNVDFQBNptRmmCVfVFSxlrV'" />Gmail
+                    </a></p>
+            </div>
+            <div class="contactInfoCnatainer">
+                <img src="./assets/linkedin.png" alt="Linkedin" class="icon  contactInfo"
+                    onclick="location.href='https://www.linkedin.com/in/saleem-talha-47b004281/'">
+                <p><a onclick="location.href='https://www.linkedin.com/in/saleem-talha-47b004281/'" />LinkedIn
+                    </a>
+                </p>
+            </div>
+            <div class="contactInfoCnatainer">
+                <img src="./assets/github.png" alt="GitHub" class="icon  contactInfo"
+                    onclick="location.href='https://github.com/Saleem-Talha'">
+                <p><a onclick="location.href='https://github.com/Saleem-Talha'" />GitHub
+                    </a>
+                </p>
+            </div>
+            <div class="contactInfoCnatainer">
+                <img src="./assets/instagram.png" alt="Instagram" class="icon  contactInfo"
+                    onclick="location.href='https://www.instagram.com/______talha_/'">
+                <p><a onclick="location.href='https://www.instagram.com/______talha_/'" />Instagram
+                    </a>
+                </p>
+            </div>
+            <div class="contactInfoCnatainer">
+                <img src="./assets/whatsapp.png" alt="WhatsApp" class="icon contactInfo"
+                    onclick="location.href='https://wa.link/hcf169'">
+                <p><a onclick="location.href='https://wa.link/hcf169'" />What'sApp
+                    </a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="navLinksContainers">
+                <ul class="navLinks">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Saleem Talha. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
